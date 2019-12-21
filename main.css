@@ -9,7 +9,7 @@ body * {
 }
 
 .container {
-    background-color: coral;
+    background-color: blue;
    display: inline-block;
    width: 1100px;
    margin-left: calc(( 100% - 1100px ) / 2);
@@ -37,28 +37,66 @@ body * {
         display: inline-block;
         float: left;
         width: 50%;
-        padding: 30px 30px;
+        padding: 80px 80px;
     }
         .container > .forma > .form {
             display: inline-block;
             width: 100%;
+            float: left;
+            
         }
             .container > .forma > .form > h5 {
                 display: inline-block;
                 width: 100%;
+                float: left;
+                font-size: 20px;
+                line-height: 26px;
+                text-transform: uppercase;
+                padding: 5px 0;
             }
             .container > .forma > .form > input {
                 display: inline-block;
                 width: 100%;
+                float: left;
+                padding: 5px 0;
+                font-size: 18px;
+                line-height: 22px;
+                border: none;
+                border-bottom: 1px black solid;
             }
-            .container > .forma > .button {
+        .forma > .btn {
+            display: inline-block;
+            float: left;
+            width: 100%;
+            margin-top: 20px;
+            line-height: 50px;
+        }
+            .forma > .btn > .button {
                 display: inline-block;
+                float: left;
+                border: 1px solid yellowgreen;
+                background-color: yellowgreen;
+                padding: 0 34px;
+                margin-right: 20px;
+                font-size: 22px;
+                color: #fff;
+                
             }
-            .container > .forma > p {
+                /* .forma > .btn > .button {
+                    display: inline-block;
+                    float: left;
+                    border: 1px solid yellowgreen;
+                } */
+            .forma > .btn > p {
                 display: inline-block;
+                float: left;
+                /* line-height: 80px; */
+                margin-right: 20px;
             }
-            .container > .forma > a {
+            .forma > .btn > a {
                 display: inline-block;
-            }
+                float: left;
+                /* line-height: 26px; */
+             }
 
 
